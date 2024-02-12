@@ -31,10 +31,10 @@ while True:
 
     mask=cv2.inRange(hsv,low,high) 
     result=cv2.bitwise_and(frame,frame,mask=mask)    
-    cv2.imshow("result",result)# If the user presses ESC then exit the program
+    cv2.imshow("result",result)# On pressing ESC it should exit the program
     
     key = cv2.waitKey(1)
-    # If the user presses `s` then print and save this array.
+    # On pressing `s` then print and save this array.
     if key == ord('s'):
         thearray = [[l_h,l_s,l_v],[h_h, h_s, h_v]]
         # Save this array as penrange.npy
