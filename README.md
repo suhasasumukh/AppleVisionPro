@@ -47,6 +47,6 @@ The `code .` command will open the  open the current directory in VS Code. Once 
 2) Search for "Code Runner."
 3) Click the install button.
 
-This will install the "Code Runner" extension. After installation, reload VS Code. Open process.py and run the program by clicking on the Code Runner play button in the top-right corner.
+This will install the "Code Runner" extension. After installation, reload VS Code. Open `process.py` and run the program by clicking on the Code Runner play button in the top-right corner.
 
 
